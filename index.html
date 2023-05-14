@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Historyczna oś czasu</title>
+	<style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Wix+Madefor+Text&display=swap');
+        body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Raleway', sans-serif;
+font-family: 'Wix Madefor Text', sans-serif;
+
+            
+
+            background-color: #0f1931;
+           
+            
+		}
+#dd{
+    top:0;
+    right: 50%;
+    margin: 0;
+			padding: 0;
+            height: 100%;
+            position:absolute;
+            z-index: -2;
+            opacity: 0.2;
+}
+img{
+   
+  width: 1432px;
+}
+		.navbar {
+			background-color: #333;
+			color: #fff;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px 20px;
+		}
+
+		.logo {
+			font-size: 54px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+
+		.navbar ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			align-items: center;
+		}
+
+		.navbar li {
+			margin-left: 20px;
+		}
+
+		.navbar a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 18px;
+			transition: color 0.2s ease-in-out;
+		}
+
+		.navbar a:hover {
+			color: #f0f0f0;
+		}
+		body {
+			
+			margin: 0;
+			padding: 0;
+		}
+
+		
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+		}
+
+		.timeline {
+			position: relative;
+			margin-top: 50px;
+            max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		.timeline:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 4px;
+			height: 100%;
+			background-color: #ffffff;
+		}
+
+		.timeline-item {
+			position: relative;
+			margin-bottom: 150px;
+		}
+
+		.timeline-item:before {
+			content: "";
+			position: absolute;
+			top: -90%;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			background-color: #c01212;
+			z-index: 2;
+		}
+        #xd:before{
+            content: "";
+			position:unset;
+			top: -90%;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			background-color: #000000;
+			z-index: 2;
+        }
+		.timeline-item:last-child {
+			margin-bottom: 0;
+		}
+
+		.timeline-item .date {
+			position: absolute;
+			top: 30px;
+            color:wheat;
+			left: 80%;
+			transform: translateX(-50%);
+			font-size: 20px;
+			font-weight: bold;
+			z-index: 2;
+		}
+
+		.timeline-item .content {
+			position: relative;
+            color:white;
+			background-color: #252525;
+			padding: 20px;
+			border-radius: 5px;
+            font-size: larger;
+            font-weight: bolder;
+			box-shadow: 0 2px 5px rgb(255, 255, 255);
+			z-index: 1;
+		}
+.container{
+    position: relative;
+}
+		.clear {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+        <nav class="navbar">
+		<div class="logo">Moja strona</div>
+		<ul>
+			<li><a href="#">Strona główna</a></li>
+			<li><a href="#">O nas</a></li>
+			<li><a href="#">Kontakt</a></li>
+		</ul>
+	</nav>
+    <div id="dd"><img src="fotka.png"></div>
+		<h1 style="color:#f0f0f0;">Historyczna oś czasu</h1>
+		<div class="timeline">
+			<div class="timeline-item" id="xd">
+				<div class="date">3500 p.n.e.</div>
+				<div class="content">
+					<p>Założenie miasta Sumer w Mezopotamii.</p>
+				</div>
+			</div>
+			<div class="timeline-item">
+				<div class="date">776 p.n.e.</div>
+				<div class="content">
+					<p>Pierwsze igrzyska olimpijskie w Grecji.</p>
+				</div>
+			</div>
+			<div class="timeline-item">
+				<div class="date">476 n.e.</div>
+				<div class="content">
+					<p>Upadek Cesarstwa Rzymskiego Zachodniego.</p>
+				</div>
+			</div>
+			<div class="timeline-item">
+				<div class="date">1215</div>
+				<div class="content">
+					<p>Powstanie Wielkiej Karty Swobód w Anglii.</p>
+				</div>
+			</div>
+			<div class="timeline-item">
+				<div class="date">1453</div>
+                <div class="content">
+                    <p>Czas</p>
+                </div>
+			</div>
