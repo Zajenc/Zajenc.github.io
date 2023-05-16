@@ -26,10 +26,7 @@ font-family: 'Wix Madefor Text', sans-serif;
             z-index: -2;
             opacity: 0.2;
 }
-img{
-   
-  width: 1432px;
-}
+
 		.navbar {
 			background-color: #333;
 			color: #fff;
@@ -74,106 +71,31 @@ img{
 			padding: 0;
 		}
 
-		
-		h1 {
-			text-align: center;
-			margin-top: 50px;
-		}
 
-		.timeline {
-			position: relative;
-			margin-top: 50px;
-            max-width: 800px;
-			margin: 0 auto;
-			padding: 20px;
-		}
-
-		.timeline:before {
-			content: "";
-			position: absolute;
-			top: 0;
-			left: 50%;
-			transform: translateX(-50%);
-			width: 4px;
-			height: 100%;
-			background-color: #ffffff;
-		}
-
-		.timeline-item {
-			position: relative;
-			margin-bottom: 150px;
-		}
-
-		.timeline-item:before {
-			content: "";
-			position: absolute;
-			top: -20%;
-			left: 50%;
-			transform: translateX(-50%);
-			width: 20px;
-			height: 20px;
-			border-radius: 50%;
-			background-color: #c01212;
-			z-index: 2;
-		}
-        #xd:before{
-            content: "";
-			position:unset;
-			top: -90%;
-			left: 50%;
-			transform: translateX(-50%);
-			width: 20px;
-			height: 20px;
-			border-radius: 50%;
-			background-color: #000000;
-			z-index: 2;
-        }
-		.timeline-item:last-child {
-			margin-bottom: 0;
-		}
-
-		.timeline-item .date {
-			position: relative;
-			top: 80%;
-            color:wheat;
-			left: 50%;
-			transform: translateX(-50%);
-			font-size: 20px;
-			font-weight: bold;
-			z-index: 2;
-			
-		}
-
-		.timeline-item .content {
-			position: relative;
-            color:white;
-			background-color: #252525;
-			padding: 40px;
-			border-radius: 5px;
-            font-size: larger;
-            font-weight: bolder;
-			padding-bottom: 120px;
-			box-shadow: 0 2px 5px rgb(255, 255, 255);
-			z-index: 1;
-		}
 .container{
     position: relative;
 }
-		.clear {
-			clear: both;
-		}
-		#lew{text-align: center;
-			width: 50%;
-			float: left;
-			
-		}
-		#praw{margin-left: 500px;
-			width: 30%;
-		}
-		b{
-			
-		}
+		
+		table{top:100px;
+            width: 50%;
+            float: left;
+            background-color: #4b5d87;
+        }
+        th{
+            background-color: #0f1931;
+            width: 20%;
+            height: 100px;
+            
+            text-align: center;
+            color:#f0f0f0;
+        }
+        #prawo{float: right;
+            color:#fff;
+            background-color: #4b5d87;
+            text-align: center;
+        }
 	</style>
+
 </head>
 <body>
 	<div class="container">
@@ -186,6 +108,25 @@ img{
 		</ul>
 	</nav>
     <div id="dd"><img src="fotka.png"></div>
+    <table>
+        <tr>
+            <th>
+                <img src="lan.jpg" width="100%"height="200px">
+                <p>Wieza zegarowa na zamku w Łańcucie </p>
+        </th>
+        <th>
+            <img src="sokol.jpg" width="100%"height="200px">
+            <p>Wieza zegarowa na kościele w Sokołowie Małopolskim </p>
+    </th>
+    <th>
+        <img src="lez.jpg" width="100%"height="200px">
+        <p>Wieza zegarowa na ratuszu w Leżajsku </p>
+</th>
+    </tr>
+    </table>    
+    <div id="prawo">
+        <h1>Zegary na wieżach</h1>
+    </div>
 	</div>
 </body>
 </html>
