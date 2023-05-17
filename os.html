@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Historyczna oś czasu</title>
+	<style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Wix+Madefor+Text&display=swap');
+        body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Raleway', sans-serif;
+font-family: 'Wix Madefor Text', sans-serif;
+
+            
+
+            background-color: #0f1931;
+           
+            
+		}
+#dd{
+    top:0;
+    right: 50%;
+    margin: 0;
+			padding: 0;
+            height: 100%;
+            position:absolute;
+            z-index: -2;
+            opacity: 0.2;
+}
+img{
+   
+  width: 1432px;
+}
+		.navbar {
+			background-color: #333;
+			color: #fff;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px 20px;
+		}
+
+		.logo {
+			font-size: 54px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+
+		.navbar ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			align-items: center;
+		}
+
+		.navbar li {
+			margin-left: 20px;
+		}
+
+		.navbar a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 18px;
+			transition: color 0.2s ease-in-out;
+		}
+
+		.navbar a:hover {
+			color: #f0f0f0;
+		}
+		body {
+			
+			margin: 0;
+			padding: 0;
+		}
+
+		
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+		}
+
+		.timeline {
+			position: relative;
+			margin-top: 50px;
+            max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		.timeline:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 4px;
+			height: 100%;
+			background-color: #ffffff;
+		}
+
+		.timeline-item {
+			position: relative;
+			margin-bottom: 150px;
+		}
+
+		.timeline-item:before {
+			content: "";
+			position: absolute;
+			top: -20%;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			background-color: #c01212;
+			z-index: 2;
+		}
+        #xd:before{
+            content: "";
+			position:unset;
+			top: -90%;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			background-color: #000000;
+			z-index: 2;
+        }
+		.timeline-item:last-child {
+			margin-bottom: 0;
+		}
+
+		.timeline-item .date {
+			position: relative;
+			top: 80%;
+            color:wheat;
+			left: 50%;
+			transform: translateX(-50%);
+			font-size: 20px;
+			font-weight: bold;
+			z-index: 2;
+			
+		}
+
+		.timeline-item .content {
+			position: relative;
+            color:white;
+			background-color: #252525;
+			padding: 40px;
+			border-radius: 5px;
+            font-size: larger;
+            font-weight: bolder;
+			padding-bottom: 120px;
+			box-shadow: 0 2px 5px rgb(255, 255, 255);
+			z-index: 1;
+		}
+.container{
+    position: relative;
+}
+		.clear {
+			clear: both;
+		}
+		#lew{text-align: center;
+			width: 50%;
+			float: left;
+			
+		}
+		#praw{margin-left: 500px;
+			width: 30%;
+		}
+		.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(64, 64, 64);
+   color: white;
+   z-index: 4;
+   text-align: center;
+}
+	</style>
+</head>
+<script>
+
+	function glowna(){
+		window.location.replace("index.html");
+	}
+</script>
+<body>
+	<div class="container">
+        <nav class="navbar">
+		<div class="logo" onclick="glowna()">Zegary i zegarki</div>
+		<ul>
+			<li><a href="os.html">Oś czasu</a></li>
+			<li><a href="okolica.html">Zegary w mojej okolicy</a></li>
+			<li><a href="kwarc.html">Zegar Kwarcowy</a></li>
+		</ul>
+	</nav>
+    <div id="dd"><img src="fotka.png"></div>
+		<h1 style="color:#f0f0f0;">Historyczna oś czasu</h1>
+		<div class="timeline">
+			<div class="timeline-item" id="xd">
+			
+				<div class="content"><div id="lew"><p><b style="font-size: xx-large;">Gnomon</b><br><br>Pierwowzór zegara stosowany m.in w Egipcie, Mezopotami czy w Chinach. Wadą są tu tzw. godziny nierówne zależne od pory roku. </p>
+					<div class="date">ok 3000 p.n.e.</div></div>
+				<div id="praw"><img src="gnom.jpg" style="width:100%;"></div>	
+				</div>
+			</div>
+			<div class="timeline-item">
+
+				<div class="content" style="text-align:center ; padding-bottom: 40px;"><p>Powstanie piramidy Cheopsa</p>
+					<div class="date">ok 2800 p.n.e.</div></div>>
+
+
+			</div>
+
+			<div class="timeline-item">
+				<div class="content"><div id="lew"><p><b style="font-size: xx-large;">Zegar typu klepsydra<br><br></b>Najstarsze wersje klepsydry pochodzą z terenów Egiptu i Mezopotamii. Były to pierwsze przenośne zegarki znane ludzkości. Działały (i nadal działają) na bardzo prostych zasadach</p>
+					<div class="date">ok 1500 p.n.e.</div></div>
+				<div id="praw"><img src="klep.jpg" style="width:100%;"></div>	
+				</div>
+			</div>
+
+
+			<div class="timeline-item">
+				<div class="content"><div id="lew"><p><b style="font-size: xx-large;">Zegar wodny</b><br><br>Pierwsze zegary wodne to były najprawdopodobniej dzbany z otworami w dnie, które działały na zasadzie klepsydry. Miarą czasu był okres wypływu wody.</p>
+					<div class="date">ok 500 p.n.e.</div></div>
+				<div id="praw"><img src="wod.JPG" style="width:100%;"></div>	
+				</div>
+			</div>
+
+			<div class="timeline-item">
+
+				<div class="content" style="text-align:center ; padding-bottom: 40px;"><p>Narodziny Chrystusa</p>
+					<div class="date">ok 0 n.e.</div></div>>
+
+
+			</div>
+			<div class="timeline-item">
+				<div class="content"><div id="lew"><p><b style="font-size: xx-large;">Zegar mechaniczny Liang Lingzan</b><br><br>zegar wykorzystujący jako regulator chodu wahadło lub balans. Energia do napędu regulatora przekazywana jest za pomocą wychwytu.</p>
+					<div class="date">ok 700 n.e.</div></div>
+				<div id="praw"><img src="chin.jpg" style="width:100%;"></div>	
+				</div>
+				</div>	
+				<div class="timeline-item">
+					<div class="content"><div id="lew"><p><b style="font-size: xx-large;">Zegary wieżowe</b><br><br>W Magdeburgu został skonstruowany pierwowzór zegara wieżowego przez Sylwestra 2.</p>
+						<div class="date">ok 1000 n.e.</div></div>
+					<div id="praw"><img src="wiez.jpg" style="width:100%;"></div>	
+					</div>
+					</div>	
+				<div class="timeline-item">
+
+						<div class="content" style="text-align:center ; padding-bottom: 40px;"><p>Odkrycie Ameryki przez Kolumba </p>
+							<div class="date">ok 1492 n.e.</div></div>>
+		
+		
+					</div>
+				<div class="timeline">
+					<div class="timeline-item" >
+					
+						<div class="content"><div id="lew"><p><b style="font-size: xx-large;">Zegar kieszonkowy</b><br><br>Pierwszy zegarek, który można w swobodny sposób przenosić. Skonstruowany przez Petera Henleina </p>
+							<div class="date">ok 1510 n.e.</div></div>
+						<div id="praw"><img src="kiesz.jpg" style="width:100%;"></div>	
+						</div>
+					</div>
+					
+				<div class="timeline-item">
+					<div class="content"><div id="lew"><p><b style="font-size: xx-large;">Zegar wahadłowy</b><br><br>zegar mechaniczny z napędem mechanicznym, elektrycznym lub elektronicznym wykorzystujący wahadło jako regulator chodu do odmierzania czasu.</p>
+						<div class="date">ok 1650 n.e.</div></div>
+					<div id="praw"><img src="wah.jpg" style="width:100%;"></div>	
+					</div>
+			</div>
+			<div class="timeline-item">
+				<div class="content"><div id="lew"><p><b style="font-size: xx-large;">Wychwyt cylindrowy</b><br><br>Rodzaj wychwytu spoczynkowego wynaleziony w 1695 roku przez Thomasa Tompiona.</p>
+					<div class="date">ok 1690 n.e.</div></div>
+				<div id="praw"><img src="cyl.jpg" style="width:100%;"></div>	
+				</div>
+			</div>
+			<div class="timeline-item">
+
+				<div class="content" style="text-align:center ; padding-bottom: 40px;"><p>Bitwa pod Połtawą</p>
+					<div class="date">ok 1709 n.e.</div></div>
+		
+		
+			</div>
+			<div class="timeline-item">
+				<div class="content"><div id="lew"><p><b style="font-size: xx-large;">Zegar z kukułką</b><br><br>Pierwszy zegar wykorzystujący znaną wszystkim kukułkę do informowania o godzinie</p>
+					<div class="date">ok 1730 n.e.</div></div>
+				<div id="praw"><img src="kuk.jpg" style="width:100%;"></div>	
+				</div>
+		</div>
+
+		<div class="timeline-item">
+			<div class="content"><div id="lew"><p><b style="font-size: xx-large;">Chronometr okrętowy</b><br><br> zegar cechujący się dużą dokładnością i odpornością na zmienne warunki pracy. Po raz pierwszy skonstruowany przez Johna Harissona</p>
+				<div class="date">ok 1770 n.e.</div></div>
+			<div id="praw"><img src="chron.jpg" style="width:100%;"></div>	
+			</div>
+	</div>
+	<div class="timeline-item">
+		<div class="content"><div id="lew"><p><b style="font-size: xx-large;">Szkoła</b><br><br>W Genewie powstała pierwsza szkoła zegarmistrzowska</p>
+			<div class="date">ok 1824 n.e.</div></div>
+		<div id="praw"><img src="gen.jpg" style="width:100%;"></div>	
+		</div>
+</div>
+	<div class="timeline-item">
+
+		<div class="content" style="text-align:center ; padding-bottom: 40px;"><p>Powstanie Styczniowe</p>
+			<div class="date">ok 1863 n.e.</div></div>
+
+
+	</div>
+	<div class="timeline-item">
+		<div class="content"><div id="lew"><p><b style="font-size: xx-large;">Zegar Kwarcowy</b><br><br> zegar posiadający tarczę ze wskazówkami, w którym do odmierzania czasu wykorzystuje się drgający kryształ kwarcu nazywany rezonatorem kwarcowym. </p>
+			<div class="date">ok 1927 n.e.</div></div>
+		<div id="praw"><img src="kwar.jpg" style="width:100%;"></div>	
+		</div>
+</div>
+
+<div class="timeline-item">
+	<div class="content"><div id="lew"><p><b style="font-size: xx-large;">Zegar Atomowy</b><br><br>rodzaj zegara, którego działanie opiera się na zliczaniu okresów atomowego wzorca częstotliwości.</p>
+		<div class="date">ok 1949 n.e.</div></div>
+	<div id="praw"><img src="atom.jpg" style="width:100%;"></div>	
+	</div>
+</div>
+
+<div class="timeline-item">
+
+	<div class="content" style="text-align:center ; padding-bottom: 40px;"><p>Polska w NATO</p>
+		<div class="date">ok 1999 n.e.</div></div>>
+
+
+</div>
+<div class="timeline-item">
+	<div class="content"><div id="lew"><p><b style="font-size: xx-large;">Zegar Pulsarowy</b><br><br>zegar, którego działanie opiera się na zliczaniu impulsów fal radiowych emitowanych z dużą regularnością okresu przez pulsary.</p>
+		<div class="date">ok 2011 n.e.</div></div>
+	<div id="praw"><img src="puls.jpg" style="width:100%;"></div>	
+	</div>
+</div>
+
+
+			</div>
+			</div>
+			
+			</div>
+			<div class="footer">
+				<p>Projekt przygotował Kacper Sroczyk 3TP</p>
+			  </div>
+</body>
+
+</html>

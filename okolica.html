@@ -16,6 +16,9 @@ font-family: 'Wix Madefor Text', sans-serif;
            
             
 		}
+		a{
+			font-size: 200px;
+		}
 #dd{
     top:0;
     right: 50%;
@@ -76,8 +79,8 @@ font-family: 'Wix Madefor Text', sans-serif;
     position: relative;
 }
 		
-		table{top:100px;
-            width: 50%;
+		table{top:1000px;
+            width: 60%;
             float: left;
             background-color: #4b5d87;
         }
@@ -89,22 +92,38 @@ font-family: 'Wix Madefor Text', sans-serif;
             text-align: center;
             color:#f0f0f0;
         }
-        #prawo{float: right;
+        #prawo{float: left;
+			width: 40%;
             color:#fff;
-            background-color: #4b5d87;
+			height: 561px;
+            background-color: #1d2538;
             text-align: center;
-        }
+        }.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(64, 64, 64);
+   color: white;
+   text-align: center;
+}
 	</style>
 
 </head>
+<script>
+
+	function glowna(){
+		window.location.replace("index.html");
+	}
+</script>
 <body>
 	<div class="container">
         <nav class="navbar">
-		<div class="logo">Moja strona</div>
+		<div class="logo" onclick="glowna()">Zegary i zegarki</div>
 		<ul>
-			<li><a href="#">Oś czasu</a></li>
-			<li><a href="#">Zegary w mojej okolicy</a></li>
-			<li><a href="#">Zegar Kwarcowy</a></li>
+			<li><a href="os.html">Oś czasu</a></li>
+			<li><a href="okolica.html">Zegary w mojej okolicy</a></li>
+			<li><a href="kwarc.html">Zegar Kwarcowy</a></li>
 		</ul>
 	</nav>
     <div id="dd"><img src="fotka.png"></div>
@@ -116,17 +135,58 @@ font-family: 'Wix Madefor Text', sans-serif;
         </th>
         <th>
             <img src="sokol.jpg" width="100%"height="200px">
-            <p>Wieza zegarowa na kościele w Sokołowie Małopolskim </p>
+            <p>Zegar na kościele w Sokołowie Małopolskim </p>
     </th>
     <th>
         <img src="lez.jpg" width="100%"height="200px">
-        <p>Wieza zegarowa na ratuszu w Leżajsku </p>
+        <p>Zegar na ratuszu w Leżajsku </p>
+</th>
+<th>
+	<img src="rzesz.jpg" width="100%"height="200px">
+	<p>Zegar na ratuszu w Rzeszowie </p>
+</th>
+<th>
+	<img src="rat.jpg" width="100%"height="200px">
+	<p>Mechanizm zegaru z Rzeszowa </p>
 </th>
     </tr>
+	<tr>
+<th>
+	<img src="prze.jpg" width="100%"height="200px">
+	<p>Wieża zegarowa w Przemyślu</p>
+</th>
+
+<th>
+	<img src="dzik.JPG" width="100%"height="200px">
+	<p>Zegar na zamku w Dzikowcu</p>
+</th>
+<th>
+	<img src="kros.jpg" width="100%"height="200px">
+	<p>Dzwonnica z zegarem w Krośnie</p>
+</th>
+<th>
+	<img src="baz.jpg" width="100%"height="200px">
+	<p>Wieża "Bazar" Iwonicz-Zdrój</p>
+</th>
+<th>
+	<img src="jar.jpg" width="100%"height="200px">
+	<p>Zegar ratusza Jarosław</p>
+</th>
+	</tr>
     </table>    
     <div id="prawo">
         <h1>Zegary na wieżach</h1>
+		<p>Są one często charakterystycznymi elementami architektury miejskiej i stanowią ważne symbole miast na całym świecie.<br>
+			<br>
+			Zegary wieżowe mają zwykle większe rozmiary niż zwykłe zegary, aby były widoczne z daleka i mogły pełnić funkcję punktu orientacyjnego dla mieszkańców miasta. Zazwyczaj wyposażone są w wskazówki, które pokazują godziny, minuty i czasami sekundy, umożliwiając precyzyjne odczytywanie czasu.
+			<br>	<br>
+			Wiele zegarów wieżowych jest również wyposażonych w dzwony, które oznajmiają godziny lub inne ważne momenty, takie jak przyjście nowego roku. Dzwony te, zwane carillonami, mają różne rozmiary i mogą wydawać dźwięki w zależności od konfiguracji. W niektórych przypadkach, zegary wieżowe mogą także posiadać dodatkowe funkcje, takie jak wyświetlanie faz księżyca, wschodów i zachodów słońca, a nawet informacje astronomiczne.
+			<br>	<br>
+			Zegary wieżowe mają bogatą historię i często są związane z ważnymi wydarzeniami w życiu miast i ich mieszkańców. Przez wieki były one źródłem informacji o czasie dla lokalnej społeczności, a także symbolem stabilności, tradycji i prestiżu. Dziś wiele zegarów wieżowych jest nadal czynnych i stanowi popularne atrakcje turystyczne, przyciągając odwiedzających, którzy chcą podziwiać ich piękno i usłyszeć dźwięk ich dzwonów.</p>
     </div>
+	<div class="footer">
+		<p>Projekt przygotował Kacper Sroczyk 3TP</p>
+	  </div>
 	</div>
 </body>
 </html>
